@@ -27,7 +27,9 @@ function submitServerInfo(evt) {
 // Create table row element and pass to appendTd function with input value
 function updateServerTable() {
   serverTbody.innerHTML = '';
-
+  amount: 10043,
+  years: 8,
+  rate: 5.8
   for (let key in allServers) {
     let curServer = allServers[key];
 
